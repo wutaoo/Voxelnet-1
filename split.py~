@@ -1,7 +1,0 @@
-import os
-import shutil
-
-train = open(os.path.abspath('ImageSets/train.txt'))
-list_train = list_train.read().splitlines()
-for i in list_train:
-    shutil.move('
